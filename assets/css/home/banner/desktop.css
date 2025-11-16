@@ -1,0 +1,14 @@
+.banner{
+    width: 100%;
+    height: 60px;
+    overflow: hidden;
+}
+.banner a,
+.banner img{
+    width: 100%;
+    height: 100%;
+}
+.banner img{
+    object-fit: cover;
+    display: block;
+}

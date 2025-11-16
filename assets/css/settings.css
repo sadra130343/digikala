@@ -1,0 +1,75 @@
+@font-face {
+    font-family: "iranyekan";
+    src: url(../fonts/iranyekan-regular.woff) format('woff');
+    font-weight: 400;
+}
+@font-face {
+    font-family: "iranyekan";
+    src: url(../fonts/iranyekan-medium.woff) format('woff');
+    font-weight: 500;
+}
+@font-face {
+    font-family: "iranyekan";
+    src: url(../fonts/iranyekan-bold.woff) format('woff');
+    font-weight: 700;
+}
+@font-face {
+    font-family: "iranyekan";
+    src: url(../fonts/iranyekan-extrabold.woff) format('woff');
+    font-weight: 800;
+}
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    text-decoration: none;
+    list-style: none;
+    font-size: var(--main-font-size);
+}
+:root{
+    --main-font-size: 16px;
+    --secendry-font-size: 14px;
+}
+body{
+    background-color: #fff;
+}
+body, html, a, input, textarea{
+    font-family: "iranyekan", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+    color: rgba(0, 0, 0, 0.9);
+    font-size: var(--main-font-size);
+}
+img{
+    max-width: 100%;
+    height: auto;
+    display: block;
+}
+@media only screen and (max-width: 371px) {
+    :root{
+        --main-font-size: 14px;
+        --secendry-font-size: 12px;
+    }
+}
+.container-full{
+    width: 100%!important;
+    padding: 0;
+    margin: 0;
+}
+.container-custom{
+    width: auto!important;
+}
+@media only screen and (max-width: 992px) {
+    .container{
+        width: 100%!important;
+        margin: 0 auto;
+        padding: 0 20px;
+    }
+}
+@media only screen and (min-width: 993px) {
+    .container{
+        max-width: 1336px!important;
+        width: 100%;
+        margin: 0 auto;
+    }
+}

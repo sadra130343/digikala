@@ -1,0 +1,120 @@
+header{
+    background-color: #fff;
+    padding: 12px;
+    /* position: sticky;
+    top: 0; */
+    display: flex;
+    flex-flow: column wrap;
+    gap: 10px;
+    box-shadow: 0 1px 3px rgba(0,0,0,0.1);
+    z-index: 1000;
+    width: 100%;
+}
+header svg{
+    width: 27px;
+    height: 27px;
+    vertical-align: middle;
+}
+.header_top{
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    gap: 10px;
+}
+.header_top .header-digikala_logo {
+    display: none;
+}
+.mobile-search-box{
+    background-color: #ececec;
+    border-radius: 8px;
+    padding: 6px;
+    height: 40px;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    gap: 10px;
+    flex: 1;
+    cursor: pointer;
+}
+.mobile-search-box img{
+    width: 60px;
+    height: auto;
+    object-fit: contain;
+}
+.mobile-search-box span{
+    color: rgba(0, 0, 0, 0.8);
+    font-weight: 400;
+}
+.mobile-search-box > div{
+    display: flex;
+    gap: 4px;
+    align-items: center;
+}
+.mobile-search-box .in-left{
+    margin-right: auto;
+}
+.header_top a{
+    background-color: #ececec;
+    border-radius: 8px;
+    height: 40px;
+    width: 40px;
+    display: grid;
+    justify-content: center;
+    align-items: center;
+}
+.header_top a svg{
+    width: 24px;
+    height: auto;
+}
+.header_bottom{
+    width: 100%;
+    height: 30px;
+}
+.choose-city{
+    display: flex;
+    align-items: center;
+    gap: 5px;
+    line-height: 30px;
+}
+.choose-city svg:nth-child(1){
+    width: 22px;
+}
+.choose-city svg:nth-child(3){
+    width:18px;
+}
+.choose-city span{
+    font-size: 14px;
+}
+.search-box{
+    display: none;
+}
+.mobile-btns{
+    display: block;
+}
+.main-btns{
+    display: none;
+}
+nav{
+    display: none;
+}
+.header_slider{
+    display: block;
+    width: 100%;
+}
+.header_slider .swiper-slide{
+    border: 1px solid rgba(0,0,0,0.1);
+    padding: 6px;
+    border-radius: 6px;
+}
+.header-slider-item img{
+    display: block;
+    width: 35px;
+    height: 35px;
+    margin: 0 auto;
+}
+.header-slider-item span{
+    display: block;
+    font-size: calc(var(--secendry-font-size) - 5px);
+    text-align: center;
+}
