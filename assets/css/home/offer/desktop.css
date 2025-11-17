@@ -1,0 +1,132 @@
+.offer-wrapper{
+    width: 100%;
+    max-width: 1360px;
+    margin: 0 auto;
+    padding: 10px;
+}
+.offer{
+    display: block;
+    align-items: center;
+    justify-content: space-between;
+    gap: 10px;
+    background-color: #e1324e;
+    padding: 25px 15px;
+    border-radius: 10px;
+}
+.offer .offer-header{
+    display: none;
+}
+.offer .time-box{
+    display: flex;
+    gap: 5px;
+    align-items: center;
+    margin-right: 10px;
+}
+.offer .time-box div{
+    background-color: #fff;
+    border-radius: 4px;
+    width: 26px;
+    height: 26px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 13px;
+}
+.offer .time-box span{
+    color: #fff;
+}
+.offer-body .swiper-slide:nth-child(2){
+    border-radius: 0 8px 8px 0;
+}
+.offer-body .swiper-slide:first-child{
+    border-radius: 0 8px 8px 0;
+}
+.offer-body .swiper-slide:last-child{
+    border-radius: 8px 0 0 8px;
+    display: grid;
+    align-items: center;
+    justify-content: center;
+}
+.offer-body .swiper-slide:last-child svg{
+    border: 2px solid #19bfd3;
+    border-radius: 500px;
+    width: 60px;
+    height: 60px;
+    padding: 10px;
+}
+.offer-body .swiper-slide{
+    background-color: #fff;
+    width: 144px;
+    height: 230px;
+    padding: 8px;
+}
+.offer-body .swiper-slide img{
+    width: 114px;
+    height: 114px;
+    object-fit: cover;
+}
+.offer-body .swiper-slide .offer-title{
+    font-size: var(--secendry-font-size);
+    font-weight: 500;
+    color: rgba(0, 0, 0, 0.7);
+    display: block;
+    margin-bottom: 8px;
+}
+.offer-body .discout{
+    background-color: #D32F2F;
+    border-radius: 50px;
+    padding: 0 8px;
+    color: #fff;
+    font-size: 12px;
+}
+.old-price{
+    color: rgba(0, 0, 0, 0.8);
+    font-size: calc(var(--secendry-font-size) - 2px);
+    text-decoration-line: line-through;
+    text-decoration-color: rgb(192, 194, 197);
+    text-decoration-style: solid;
+    color: rgb(192, 194, 197);
+}
+.new-price{
+    color: rgba(0, 0, 0, 0.8);
+    font-size: var(--secendry-font-size);
+}
+.new-price::after{
+    content: "تومان";
+    vertical-align: middle;
+    margin: 0 4px;
+    color: rgba(0, 0, 0, 0.7);
+    font-size: 10px;
+}
+.offer-header-desktop-mode{
+    background-color: transparent!important;
+    display: flex;
+    flex-flow: column nowrap;
+    gap: 8px;
+    justify-content: center;
+}
+.offer-header-desktop-mode > .btn{
+    display: flex;
+    gap: 5px;
+    margin-right: auto;
+    align-items: center;
+    margin: auto;
+}
+.offer-header-desktop-mode .btn svg{
+    width: 10px;
+    height: 10px;
+}
+.offer-header-desktop-mode .btn span{
+    color: #fff;
+}
+.offer-header-desktop-mode img:nth-child(1){
+    width: 88px;
+    height: 88px;
+    margin: auto;
+}
+.offer-header-desktop-mode img:nth-child(3){
+    width: 80px;
+    height: 80px;
+    margin: auto;
+    object-fit: contain;
+}
