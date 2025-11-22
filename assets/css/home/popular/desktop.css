@@ -1,0 +1,38 @@
+.popular{
+    border: 1px solid rgba(0, 0, 0, 0.2);
+    border-radius: 12px;
+    padding: 12px;
+}
+.popular .swiper-wrapper{
+    display: block!important;
+}
+.popular img{
+    width: 172px;
+    height: 172px;
+    display: block;
+    object-fit: cover;
+}
+.popular h3{
+    font-size: 12px;
+    font-weight: 400;
+}
+.popular .swiper-wrapper{
+    display: grid!important;
+    grid-template-columns: 1fr 1fr 1fr 1fr 1fr;
+    gap: 10px;
+}
+.popular .swiper-slide a{
+    width: 315px;
+    display: flex;
+    align-items: center;
+    flex-flow: row nowrap;
+    gap: 10px;
+    border-radius: 8px;
+    padding: 10px;
+}
+.popular .swiper-slide a h2{
+    display: none;
+}
+.popular .swiper-slide a h1{
+    display: none;
+}

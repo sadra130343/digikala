@@ -8,12 +8,13 @@
     margin-top: 10px;
 }
 .brands .swiper-slide{
-    width: 100px;
+    width: 110px;
     display: flex;
     align-content: center;
     flex-flow: column nowrap;
     justify-content: center;
     gap: 10px;
+    position: relative;
 }
 .brands .swiper-slide img{
     width: 110px;
@@ -22,7 +23,17 @@
     object-fit: contain;
     display: block;
     margin: 0 auto;
+    padding: 10px;
 }
-.brands .swiper-slide  span{
+.brands .swiper-slide span{
     display: none;
+}
+.brands .swiper-slide:not([data-last="true"])::after{
+    content: "";
+    display: block;
+    background-color: rgba(0, 0, 0, 0.2);
+    right: 110px;
+    width: 1px;
+    height: 100px;
+    position: absolute;
 }

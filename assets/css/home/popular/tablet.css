@@ -1,0 +1,42 @@
+.popular img{
+    width: 40px;
+    height: 40px;
+    display: block;
+    object-fit: cover;
+}
+.popular h3{
+    font-size: 12px;
+    font-weight: 400;
+}
+.popular .swiper-slide{
+    width: 210px;
+    display: flex;
+    flex-flow: column nowrap;
+    gap: 10px;
+}
+.popular .swiper-slide a{
+    width: 200px;
+    height: 72px;
+    display: flex;
+    align-items: center;
+    flex-flow: row nowrap;
+    gap: 10px;
+    border: 1px solid rgba(0, 0, 0, 0.2);
+    border-radius: 8px;
+    padding: 10px;
+}
+.popular .swiper-slide a h2{
+    font-size: calc(var(--secendry-font-size) - 2px);
+    color: rgba(0, 0, 0, 0.6);
+    font-weight: 400;
+}
+.popular .swiper-slide a h1{
+    font-size: calc(var(--secendry-font-size) - 2px);
+    color: rgba(0, 0, 0, 0.6);
+    font-weight: 500;
+    background-color: #D32F2F;
+    border-radius: 50px;
+    color: #fff;
+    padding: 7px;
+    line-height: 5px;
+}

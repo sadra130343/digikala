@@ -1,3 +1,19 @@
 .secend-banner {
+    display: grid;
+    grid-template-columns:1fr;
+    gap: 14px;
+    padding: 10px;
+}
+.secend-banner img{
+    border-radius: 12px;
+    width: 100%;
+    height: 150px;
+    object-fit: cover;
+    box-shadow: 4px 4px 6px rgba(0, 0, 0, 0.1);
+}
+.secend-banner a[data-last="true"]{
+    display: none;
+}
+.d-n{
     display: none;
 }

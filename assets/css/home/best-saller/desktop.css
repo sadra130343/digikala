@@ -1,0 +1,44 @@
+.best-sellars{
+    border: 1px solid rgba(0, 0, 0, 0.2);
+    border-radius: 12px;
+    padding: 12px;
+}
+.best-sellars img{
+    width: 72px;
+    height: 72px;
+    display: block;
+    object-fit: cover;
+}
+.best-sellars h3{
+    font-size: 12px;
+    font-weight: 400;
+}
+.best-sellars .swiper-slide{
+    width: 325px;
+    display: flex;
+    flex-flow: column nowrap;
+    gap: 10px;
+}
+.best-sellars .swiper-slide a{
+    width: 315px;
+    height: 72px;
+    display: flex;
+    align-items: center;
+    flex-flow: row nowrap;
+    gap: 10px;
+    border-radius: 8px;
+    padding: 10px;
+}
+.best-sellars .swiper-slide a h2{
+    font-size: var(--secendry-font-size);
+    color: rgba(0, 0, 0, 0.6);
+    font-weight: 400;
+}
+.best-sellars .swiper-slide a h1{
+    font-size: 22px;
+    margin: 10px;
+    color: rgba(0, 0, 0, 0.6);
+    font-weight: 500;
+    border-radius: 50px;
+    color: rgb(0, 195, 255);
+}

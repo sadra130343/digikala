@@ -1,0 +1,25 @@
+.mini-category{
+    padding: 0;
+}
+.mini-category .offer{
+    background-color: #fff;
+    position: relative;
+}
+.mini-category .swiper-slide {
+    border: 1px solid rgba(0, 0, 0, 0.2);
+    border-radius: 8px!important;
+}
+.mini-category .space{
+    display: block;
+    background-color: rgba(0, 0, 0, 0.2);
+    width: 100vw;
+    height: 10px;
+}
+.mini-category video{
+    width: 100%;
+    padding: 10px;
+    border-radius: 20px;
+}
+.grid-template{
+    display: none;
+}
